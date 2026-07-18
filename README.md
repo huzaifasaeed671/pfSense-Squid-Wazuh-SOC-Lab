@@ -39,18 +39,13 @@ The objective was to build a complete security monitoring environment capable of
 
 ---
 
-# 🛠 Technologies Used
+## 🌐 Network Configuration
 
-| Technology | Purpose |
-|------------|---------|
-| pfSense CE | Firewall & Gateway |
-| Squid Proxy | Web Proxy |
-| SquidClamAV | Malware Detection |
-| Wazuh SIEM | Security Monitoring |
-| Syslog | Log Forwarding |
-| Parrot Security OS | Client Machine |
-| Oracle VirtualBox | Virtualization |
-
+| Device | IP Address |
+|--------|------------|
+| pfSense LAN | 192.168.1.1 |
+| Parrot OS | 192.168.1.100 |
+| Wazuh Server | 192.168.1.101 |
 ---
 
 # 🌐 Network Configuration
@@ -122,7 +117,7 @@ They include:
 
 ---
 
-# 📄 Report
+## 📄 Project Report
 
 The complete internship report is available inside the **Report** folder.
 
