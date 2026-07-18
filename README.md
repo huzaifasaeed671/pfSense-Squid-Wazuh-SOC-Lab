@@ -1,1 +1,145 @@
+# 🛡️ SOC Internship Week 3 – pfSense, Squid Proxy & Wazuh SIEM Lab
 
+## 📖 Project Overview
+
+This project was completed as part of my SOC Internship at ITSimplera Solutions.
+
+The objective was to build a complete security monitoring environment capable of:
+
+- Filtering network traffic using pfSense Firewall
+- Inspecting web traffic using Squid Proxy
+- Detecting malware using SquidClamAV
+- Forwarding firewall logs to Wazuh SIEM
+- Creating custom Wazuh detection rules
+- Monitoring security alerts from the Wazuh Dashboard
+
+---
+
+# 🏗️ Lab Architecture
+
+```
+                 Internet
+                     │
+                     │
+              pfSense Firewall
+                     │
+        ┌────────────┴────────────┐
+        │                         │
+   Parrot OS                 Wazuh Server
+ (Client Machine)              (SIEM)
+```
+
+---
+
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| pfSense CE | Firewall & Gateway |
+| Squid Proxy | Web Proxy |
+| SquidClamAV | Malware Detection |
+| Wazuh SIEM | Security Monitoring |
+| Syslog | Log Forwarding |
+| Parrot Security OS | Client Machine |
+| Oracle VirtualBox | Virtualization |
+
+---
+
+# 🌐 Network Configuration
+
+| Device | IP Address |
+|----------|-------------|
+| pfSense LAN | 192.168.1.1 |
+| Parrot OS | 192.168.1.100 |
+| Wazuh Server | 192.168.1.101 |
+
+---
+
+# 🚀 Project Workflow
+
+1. Deploy pfSense Firewall
+2. Configure Squid Proxy
+3. Enable SquidClamAV
+4. Configure Remote Syslog
+5. Deploy Wazuh SIEM
+6. Create Custom Detection Rule
+7. Generate ICMP Traffic
+8. Download EICAR Test File
+9. Monitor Alerts in Wazuh Dashboard
+
+---
+
+# ✅ Testing Performed
+
+✔ Firewall Traffic Monitoring
+
+✔ DNSBL Website Blocking
+
+✔ Malware Detection using EICAR
+
+✔ Syslog Log Forwarding
+
+✔ Wazuh Log Collection
+
+✔ Custom Rule Validation
+
+✔ Dashboard Alert Verification
+
+---
+
+# 📸 Project Screenshots
+
+All screenshots are available in the **Images** folder.
+
+They include:
+
+- Virtual Lab
+- Network Topology
+- pfSense Dashboard
+- DNSBL Blocking
+- SquidClamAV Malware Detection
+- Firewall Logs
+- Wazuh Dashboard
+- Custom Rule
+- Alert Generation
+
+---
+
+# 📄 Report
+
+The complete internship report is available inside the **Report** folder.
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Network Security
+- Firewall Administration
+- Proxy Server Configuration
+- Malware Detection
+- Security Monitoring
+- SIEM Administration
+- Wazuh Rule Creation
+- Syslog Configuration
+- Incident Response
+- Blue Team Operations
+
+---
+
+# 📚 References
+
+- Wazuh Documentation
+- Netgate pfSense Documentation
+- Squid Proxy Documentation
+- ClamAV Documentation
+- EICAR Test File
+
+---
+
+## 👨‍💻 Author
+
+**Huzaifa Saeed**
+
+SOC Intern
+
+ITSimplera Solutions
