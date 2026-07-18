@@ -132,6 +132,24 @@ The complete internship report is available inside the **Report** folder.
 - Incident Response
 - Blue Team Operations
 
+## 📁 Repository Structure
+
+```text
+pfSense-Squid-Wazuh-SOC-Lab/
+├── Images/
+│   ├── image1.png
+│   ├── image2.png
+│   ├── image3.png
+│   └── ...
+│
+├── Report/
+│   ├── SOC_Internship_Week3_Report.pdf
+│   └── README.md
+│
+├── LICENSE
+└── README.md
+```
+
 ---
 
 # 📚 References
