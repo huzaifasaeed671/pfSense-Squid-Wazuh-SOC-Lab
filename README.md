@@ -94,7 +94,16 @@ The objective was to build a complete security monitoring environment capable of
 ✔ Dashboard Alert Verification
 
 ---
+## 🏆 Key Achievements
 
+- Successfully deployed pfSense Firewall
+- Configured Squid Proxy
+- Integrated SquidClamAV for malware scanning
+- Forwarded pfSense logs to Wazuh using Syslog
+- Created a custom Wazuh detection rule
+- Detected and blocked the EICAR malware test file
+- Verified alert generation in the Wazuh Dashboard
+  
 # 📸 Project Screenshots
 
 All screenshots are available in the **Images** folder.
@@ -161,6 +170,19 @@ pfSense-Squid-Wazuh-SOC-Lab/
 - EICAR Test File
 
 ---
+---
+
+## 🚀 Future Improvements
+
+- Integrate Suricata IDS/IPS
+- Add Windows and Linux Wazuh Agents
+- Monitor Sysmon Events
+- Configure Email Alerts
+- Integrate Threat Intelligence Feeds
+
+## 📄 Project Report
+The complete internship report is available in the **Report** folder.
+**File:** `Report/SOC_Internship_Week3_Report.pdf`
 
 ## 👨‍💻 Author
 
