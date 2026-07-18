@@ -1,5 +1,13 @@
 # 🛡️ SOC Internship Week 3 – pfSense, Squid Proxy & Wazuh SIEM Lab
+![pfSense](https://img.shields.io/badge/pfSense-2.8.1-blue)
 
+![Wazuh](https://img.shields.io/badge/Wazuh-4.14.6-green)
+
+![Platform](https://img.shields.io/badge/Platform-VirtualBox-orange)
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+![License](https://img.shields.io/badge/License-MIT-blue)
 ## 📖 Project Overview
 
 This project was completed as part of my SOC Internship at ITSimplera Solutions.
